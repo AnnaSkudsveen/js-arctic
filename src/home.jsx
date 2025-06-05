@@ -19,7 +19,7 @@ function Homepage() {
 
   return (
     <>
-      <header className="bg-[#115488] p-10 flex flex-col items-center justify-center gap-14">
+      <header className="bg-[#115488] p-10 flex flex-col items-center justify-center gap-14 w-full mx-0">
         <div className="w-full flex justify-end">
           <button
             onClick={toggleLanguage}
