@@ -6,12 +6,16 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.2",
+    "@vitejs/plugin-react": "^4.5.1",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.2"
   },
   "type": "module",
   "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
     "vite": "^6.2.5"
   }
 }
