@@ -11,7 +11,7 @@ import Baat from "../images/ac829dde-4a6b-46da-a757-7d606e39c7e7.jpeg";
 import video from "../images/235b7704-0543-4fa3-bdda-760510b5ae20.mp4";
 
 function Homepage() {
-  const [language, setLanguage] = useState("no");
+  const [language, setLanguage] = useState("NO");
 
   const toggleLanguage = () => {
     setLanguage(language === "NO" ? "EN" : "NO");
@@ -66,22 +66,10 @@ function Homepage() {
                 </li>
                 <li>
                   {language === "NO"
-                    ? "Kjøp og salg av båt"
-                    : "Boat purchase and sale"}
+                    ? "Oppfriskningskurs for ICC"
+                    : "Refresher course for ICC"}
                 </li>
-                <li>
-                  {language === "NO"
-                    ? "Transport av båt sjøveien (Maks lengde 24m/75 fot)"
-                    : "Boat transport by sea (Max length 24m/75 feet)"}
-                </li>
-                <li>
-                  {language === "NO" ? "Crew tjenester" : "Crew services"}
-                </li>
-                <li>
-                  {language === "NO"
-                    ? "Verdivurdering av båt"
-                    : "Boat valuation"}
-                </li>
+
                 <li>
                   {language === "NO"
                     ? "Krankurs (Elektrisk søylekran for båtopptak) I samarbeid med Safe Opplæring"
@@ -134,13 +122,23 @@ function Homepage() {
 
             <div className="w-5/6 md:w-[450px]">
               <ul className="list-disc pl-5 text-gray-700 flex flex-col gap-1 text-start">
-                <li> {language === "NO" ? "Navigasjon" : "Navigation"}</li>
-                <li>{language === "NO" ? "Meteorologi" : "Meteorology"}</li>
-                <li>{language === "NO" ? "Nattsailas" : "Night Sailing"}</li>
                 <li>
                   {language === "NO"
-                    ? "Maritime lover og regler"
-                    : "Maritime laws and regulations"}
+                    ? "Kjøp og salg av båt"
+                    : "Boat purchase and sale"}
+                </li>
+                <li>
+                  {language === "NO"
+                    ? "Transport av båt sjøveien (Maks lengde 24m/75 fot)"
+                    : "Boat transport by sea (Max length 24m/75 feet)"}
+                </li>
+                <li>
+                  {language === "NO" ? "Crew tjenester" : "Crew services"}
+                </li>
+                <li>
+                  {language === "NO"
+                    ? "Verdivurdering av båt"
+                    : "Boat valuation"}
                 </li>
               </ul>
             </div>
