@@ -61,8 +61,8 @@ function Homepage() {
               <ul className="list-disc pl-5 text-gray-700 flex flex-col gap-1 text-start">
                 <li>
                   {language === "NO"
-                    ? "ICC - Internasjonalt båtsertifikat"
-                    : "ICC - International Boat Certificate"}
+                    ? "ICC - Internasjonalt båtsertifikat, i samarbeid med Maritim Facilitator Norway AS"
+                    : "ICC - International Boat Certificate, in collaboration with Maritime Facilitator Norway AS"}
                 </li>
                 <li>
                   {language === "NO"
@@ -77,12 +77,6 @@ function Homepage() {
                 </li>
               </ul>
             </div>
-
-            <p className="text-gray-700">
-              {language === "NO"
-                ? "Vi har samarbeid med Maritim Facilitator Norway AS"
-                : "We collaborate with Maritime Facilitator Norway AS"}
-            </p>
           </div>
 
           <div className="flex flex-col items-center justify-start gap-8 w-full max-w-[450px] text-center">
