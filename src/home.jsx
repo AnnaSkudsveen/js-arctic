@@ -123,16 +123,16 @@ function Homepage() {
                 </li>
                 <li>
                   {language === "NO"
+                    ? "Verdivurdering av båt"
+                    : "Boat valuation"}
+                </li>
+                <li>
+                  {language === "NO"
                     ? "Transport av båt sjøveien (Maks lengde 24m/75 fot)"
                     : "Boat transport by sea (Max length 24m/75 feet)"}
                 </li>
                 <li>
                   {language === "NO" ? "Crew tjenester" : "Crew services"}
-                </li>
-                <li>
-                  {language === "NO"
-                    ? "Verdivurdering av båt"
-                    : "Boat valuation"}
                 </li>
               </ul>
             </div>
