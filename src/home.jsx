@@ -45,7 +45,7 @@ function Homepage() {
           {language === "NO" ? "Hva vi tilbyr" : "What we offer"}
         </h2>
 
-        <section className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-10 lg:gap-10 lg:mx-20 w-full">
+        <section className="flex flex-col lg:flex-row items-center px-10 lg:items-start justify-center gap-10 lg:gap-10 lg:mx-20 w-full">
           <div className="flex flex-col items-center justify-start gap-8 w-full max-w-[450px] text-center">
             <img
               src={flaggBaat}
